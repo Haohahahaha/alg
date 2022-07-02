@@ -1,2 +1,5 @@
-site_name: My Docs
+site_name: 算法笔记 
+site_url: https://alg.haohaha.cn/
+site_author: Haohahahaha
+site_description: 日行一里，年至恒山。
 theme: material
