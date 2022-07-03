@@ -4,20 +4,18 @@ theme:
   icon:
     logo: material/library
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default # 日间模式
+      primary: indigo # 上方的
+      accent: orange # 链接等可交互元件的高亮色
+      toggle:
+        icon: material/weather-night # 图标
+        name: 切换至夜间模式 # 鼠标悬浮提示
+    - scheme: slate # 夜间模式
       primary: indigo
-      accent: deep purple
+      accent: orange
       toggle:
         icon: material/weather-sunny
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: lime
-      accent: deep purple
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
+        name: 切换至日间模式
   features:
     - navigation.tabs
     - navigation.top
