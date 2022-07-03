@@ -1,17 +1,3 @@
-# Welcome to MkDocs
+欢迎来到浩哈哈哈哈 -- 算法打卡！
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+目前我正在学习《代码随想录》，每日早8:00更新一章练习～（争取不咕）
