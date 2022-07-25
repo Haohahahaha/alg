@@ -31,6 +31,15 @@ nav:
     - 代码随想录: 
       - 第3章数组:
         - 3-1 二分查找: CodeThinker/3/2022-06-07_3-1_二分查找.md
+        - 3-2 移除元素: CodeThinker/3/2022-06-08_3-2_移除元素.md
+        - 3-3 长度最小子数组: CodeThinker/3/2022-06-09_3-3_长度最小子数组.md
+        - 3-4 循环不变量: CodeThinker/3/2022-06-10_3-4_循环不变量.md
+      - 第4章 链表:
+        - 4-1 设计链表: CodeThinker/4/2022-06-13_4-1_设计链表.md
+        - 4-2 反转链表: CodeThinker/4/2022-06-27_4-2_反转链表.md
+        - 4-3 删除倒数第n个节点: CodeThinker/4/2022-06-28_4-3_删除倒数第n个节点.md
+        - 4-4 环形链表: CodeThinker/4/2022-07-01_4-4_环形链表.md
+        - 4-5 删除节点: CodeThinker/4/2022-07-12_4-5_删除节点.md
   - 数学笔记: http://math.haohaha.cn
   - 英语笔记: http://eng.haohaha.cn
   - CS笔记: http://cs.haohaha.cn
