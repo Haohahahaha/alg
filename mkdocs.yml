@@ -29,17 +29,8 @@ nav:
   - 算法打卡: 
     - Home: index.md
     - 代码随想录: 
-      - Intro: CodeThinker/intro.md
-      - 第3章 数组: CodeThinker/3.md
-      - 第4章 链表: CodeThinker/4.md
-      - 第5章 哈希表: CodeThinker/5.md
-      - 第6章 字符串: CodeThinker/6.md
-      - 第7章 栈和队列: CodeThinker/7.md
-      - 第8章 二叉树: CodeThinker/8.md
-      - 第9章 回溯算法: CodeThinker/9.md
-      - 第10章 贪心算法: CodeThinker/10.md
-      - 第11章 动态规划: CodeThinker/11.md
-      - 后序: CodeThinker/12-Ending.md
+      - 第3章数组:
+        - 3-1 二分查找: CodeThinker/3/2022-06-07\ 3-1\ 二分查找.md
   - 数学笔记: http://math.haohaha.cn
   - 英语笔记: http://eng.haohaha.cn
   - CS笔记: http://cs.haohaha.cn
