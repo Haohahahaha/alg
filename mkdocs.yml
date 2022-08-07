@@ -40,6 +40,8 @@ nav:
         - 4-3 反转链表: CodeThinker/4/2022-06-28_4-3_反转链表.md
         - 4-4 删除倒数第n个节点: CodeThinker/4/2022-07-01_4-4_删除倒数第n个节点.md
         - 4-5 环形链表: CodeThinker/4/2022-07-12_4-5_环形链表.md
+      - 第5章 哈希表:
+        - 501 有效的字母异位词: CodeThinker/5/2022-08-07_501.md
     - 以前练的题:
       - Uva1585,Score: old/2021-08-03_Uva1585,Score/2021-08-03_Uva1585,Score.md
       - Uva272,Tex_Quotes: old/2021-08-04_Uva272,Tex_Quotes/2021-08-04_Uva272,Tex_Quotes.md
