@@ -58,6 +58,9 @@ nav:
   - CS笔记: http://cs.haohaha.cn
   - 我爱OS: http://os.haohaha.cn
   - 闲聊波尔卡: http://chat.haohaha.cn 
+markdown_extensions:
+  - codehilite(guess_lang=true, linenums=true)
+# - codehilite(linenums=true)
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
 extra:
