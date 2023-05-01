@@ -50,6 +50,8 @@ nav:
         - 5-3 两数之和: CodeThinker/5/2022-10-09_5-3.md
         - 5-4 四数相加: CodeThinker/5/2022-11-23_5-4.md
         - 5-5 三数之和: CodeThinker/5/2022-11-24_5-5.md
+      - 第7章 栈与队列:
+        - 7-5 逆波兰表达式: CodeThinker/7/2023-05-01_7-5.md
     - 以前练的题:
       - Uva1585,Score: old/2021-08-03_Uva1585,Score/2021-08-03_Uva1585,Score.md
       - Uva272,Tex_Quotes: old/2021-08-04_Uva272,Tex_Quotes/2021-08-04_Uva272,Tex_Quotes.md
