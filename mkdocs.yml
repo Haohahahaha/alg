@@ -27,6 +27,8 @@ theme:
     - content.action.edit
   language: zh
 
+edit_uri: edit/main/docs
+
 nav:
   - 算法打卡: 
     - Home: index.md
