@@ -23,6 +23,8 @@ theme:
     - navigation.expand
     - search.suggest
     - search.highlight
+    - content.code.copy
+    - content.action.edit
   language: zh
 
 nav:
