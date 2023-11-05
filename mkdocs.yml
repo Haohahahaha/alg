@@ -5,14 +5,14 @@ theme:
     logo: material/library
   palette:
     - scheme: slate # 夜间模式
-      primary: indigo
-      accent: orange
+      primary: light green
+      accent: lime
       toggle:
         icon: material/weather-sunny
         name: 切换至日间模式
     - scheme: default # 日间模式
-      primary: indigo # 上方的
-      accent: orange # 链接等可交互元件的高亮色
+      primary: light green # 上方的
+      accent: lime # 链接等可交互元件的高亮色
       toggle:
         icon: material/weather-night # 图标
         name: 切换至夜间模式 # 鼠标悬浮提示
@@ -30,6 +30,7 @@ theme:
 edit_uri: edit/main/docs
 
 nav:
+  - 主页: https://haohaha.cn
   - 算法打卡: 
     - Home: index.md
 #   - Frank-直面数据结构:
@@ -91,4 +92,4 @@ extra:
       link: https://github.com/Haohahahaha
       name: GitHub | Haohahahaha
 ## [bottom-left corner]
-copyright: Copyright &copy; 2022 浩哈哈哈哈_ # 左下角的版权声明
+copyright: Copyright &copy; 2022-现在 浩哈哈哈哈_ # 左下角的版权声明
