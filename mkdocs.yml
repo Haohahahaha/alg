@@ -31,6 +31,9 @@ edit_uri: edit/main/docs
 
 nav:
   - 主页: https://haohaha.cn
+  - CS笔记: http://cs.haohaha.cn
+  - 闲聊波尔卡: http://chat.haohaha.cn 
+  - OS学习: http://os.haohaha.cn
   - 算法打卡: 
     - Home: index.md
 #   - Frank-直面数据结构:
@@ -71,9 +74,6 @@ nav:
       - Binary-Search: old/2021-10-31_Binary-Search/2021-10-31_Binary-Search.md
   - 数学笔记: http://math.haohaha.cn
   - 英语笔记: http://eng.haohaha.cn
-  - CS笔记: http://cs.haohaha.cn
-  - 我爱OS: http://os.haohaha.cn
-  - 闲聊波尔卡: http://chat.haohaha.cn 
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
