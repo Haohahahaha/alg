@@ -1,0 +1,97 @@
+/* LeetCode Question No.15
+ * Given an integer array nums, return all the triplets `nums[i], nums[j], 
+ * nums[k]` such that `i != j`, `i != k`, and `j != k`, and 
+ * `nums[i] + nums[j] + nums[k] == 0`.
+ *
+ * Notice that the solution set must not contain duplicate triplets.
+ */
+
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+class Solution{
+public:
+	vector<vector<int>> threeSum(vector<int>& nums){
+		vector<vector<int>> result;
+		sort(nums.begin(), nums.end());	// sort() need <algorithm>
+
+		// 找出 a+b+c=0
+		// a=nums[i], b=nums[left], c=nums[right]
+
+		for (int i = 0; i < nums.size(); i++){
+
+			// 排序之后如果第一个元素已经大于0，
+			// 那么无论如何组合都不可能凑成三元组，直接返回结果就可以了	
+			if (nums[i] > 0){
+				return result;
+			}
+			
+			// 正确的去重方法
+			if (i > 0 && nums[i] == nums[i - 1]) {
+				continue;
+			}
+			
+			int left = i + 1;
+			int right = nums.size() - 1;
+			
+			while (right > left) {
+				// 如果去重复逻辑放在这里，则可能导致 left <= right
+				// 从而漏掉了[0, 0, 0]元组
+
+				if (nums[i] + nums[left] + nums[right] > 0) {
+					right--;
+				} else if (nums[i] + nums[left] + nums[right] < 0) {
+					left++;
+				} else {
+					result.push_back(
+						vector<int>{nums[i], nums[left], nums[right]});
+				 
+
+				while (right > left && nums[right] == nums[right-1]) right++;
+				while (right > left && nums[left] == nums[left+1]) left++;
+				
+				// 找到答案时，双指针同时收缩				
+				right--;
+				left++;
+				}
+			}
+		} 
+		return result;
+	}
+	void printV2D(vector<vector<int>>& nums) {
+
+		cout << "[";
+		for (vector<vector<int>>::iterator i = nums.begin(); 
+			 i != nums.end(); 
+			 i++){
+
+			cout << "[";
+			for (vector<int>::iterator j = i->begin();
+				 j != i->end();
+				 j++){
+				cout << *j;
+				// 每个元素之间打印一个逗号，最后一个元素不打印
+				if (j != i->end()-1) cout << ",";
+			}
+			cout << "]";
+			// 每个元组之间打印一个逗号，最后一个元组不打印
+			if (i != nums.end()-1) cout << ",";
+		}
+		cout << "]" << endl;
+	}
+};
+
+int main(void){
+	vector<int> nums = {-1, 0, 1, 2, -1, -4};
+	vector<vector<int>> result;
+	
+	// cin >> nums;
+
+	Solution sl;
+
+	result = sl.threeSum(nums);
+	sl.printV2D(result);
+}
