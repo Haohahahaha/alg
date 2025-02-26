@@ -31,10 +31,10 @@ theme:
 edit_uri: edit/main/docs
 
 nav:
-  - 主页: https://haohaha.cn
-  - CS笔记: http://cs.haohaha.cn
-  - 闲聊波尔卡: http://chat.haohaha.cn 
-  - 算法打卡: 
+  - Home: https://haohaha.cn
+  - Be_Rational: http://cs.haohaha.cn
+  - Chat_Polka: http://chat.haohaha.cn 
+  - Algorithm: 
     - Home: index.md
 #   - Frank-直面数据结构:
 #     - 1.Academic:
