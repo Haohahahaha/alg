@@ -22,6 +22,7 @@ theme:
     - navigation.top
     - navigation.indexes
     - navigation.expand
+    - navigation.prune # 折叠
     - search.suggest
     - search.highlight
     - content.code.copy
