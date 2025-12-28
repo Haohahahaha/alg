@@ -2,13 +2,10 @@
 #include <cstdio>
 
 using namespace std;
+int A[110][110], B[110][110], C[110][110], n,m,k;
 
 int main(){
-	int A[110][110];
-	int B[110][110];
-	int C[110][110];
-
-	int n,m,k = 0;
+	
 	int i,j;
 
 	// 输入部分
