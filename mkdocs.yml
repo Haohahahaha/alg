@@ -44,7 +44,9 @@ nav:
     - Home: index.md
     - 做点儿题: 
       - hz333/index.md
-      - 笔记: hz333/notes.md
+      - 笔记: 
+        - hz333/note/notes.md
+        - P8772-输入输出+Buffer: hz333/note/P8772-io&buffer.md
     - 代码随想录: 
       - 第3章 数组:
         - 3-1 二分查找: CodeThinker/3/2022-06-07_3-1_二分查找.md
