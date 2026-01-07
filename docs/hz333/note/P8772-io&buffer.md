@@ -162,14 +162,14 @@ I/O 总开销
 
 [^1]: ISO/IEC 9899:2018 — Programming Languages — C
 
-[^2]:Kernighan, Ritchie — The C Programming Language, 2nd Edition
+[^2]: Kernighan, Ritchie — The C Programming Language, 2nd Edition
 
-[^3]:Stevens — Advanced Programming in the UNIX Environment
+[^3]: Stevens — Advanced Programming in the UNIX Environment
 
-[^4]:ISO/IEC 14882:2020 — Programming Languages — C++
+[^4]: ISO/IEC 14882:2020 — Programming Languages — C++
 
-[^5]:cppreference.com — std::basic_streambuf
+[^5]: [cppreference.com — std::basic_streambuf](https://en.cppreference.com/w/cpp/io/basic_streambuf.html)
 
-[^6]:cppreference.com — std::ios::sync_with_stdio
+[^6]: [cppreference.com — std::ios_base::sync_with_stdio](https://en.cppreference.com/w/cpp/io/ios_base/sync_with_stdio)
 
-[^7]:cppreference.com — std::istream::tie
+[^7]: [cppreference.com — std::basic_ios<CharT,Traits>::tie](https://en.cppreference.com/w/cpp/io/basic_ios/tie.html)
