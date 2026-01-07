@@ -1,0 +1,19 @@
+# 2022-10-09 两数之和
+
+> 力扣题目：[Link](https://leetcode.cn/problems/two-sum)
+
+### `map`的结构
+
+`map`是一种`<key,value>`的存储结构，可以用`key`保存数值，用`value`保存数值所在的下标。
+
+### `iter`指针
+
+在`<key,value>`结构中，`iter`指针的意义：
+
+
+
+### 解题思路
+
+
+
+### 代码实现
